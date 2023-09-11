@@ -1,0 +1,481 @@
+/***** Hier liegt die link von den schriftsart von texte..*****/
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+/*********/
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(56, 55, 55);
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 3px;
+}
+
+header div {
+  padding: 0px;
+  margin: 10px;
+}
+
+header div ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+header div ul li {
+  list-style-type: none;
+}
+
+main .hintergrund-bild {
+  background-image: url(bild-1.webp);
+  filter: brightness(1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  min-height: 600px;
+  width: 100%;
+}
+
+main .hintergrund-bild .top {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+
+}
+
+main .hintergrund-bild .top:hover {
+  background-color: white;
+  width: 100%;
+  height: 195px;
+  color: black;
+  transition: 2s;
+}
+
+main .hintergrund-bild .top .div-4 {
+  grid-column-end: span 3;
+}
+
+main .hintergrund-bild .top .div-4 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .hintergrund-bild .top .div-4 ul li {
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+main .hintergrund-bild .top .div-5 {
+  grid-column-end: span 3;
+}
+
+main .hintergrund-bild .top .div-5 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .hintergrund-bild .top .div-5 ul li {
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+main .hintergrund-bild .top .icon-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 3px;
+}
+
+main .hintergrund-bild img {
+  max-width: 25px;
+  max-height: 25px;
+  padding: auto;
+  margin: 8px;
+  filter: invert(95%);
+}
+
+main .hintergrund-bild .top:hover img {
+  filter: invert(0%);
+}
+
+main .hintergrund-bild div p {
+  text-align: center;
+  font-size: larger;
+}
+
+main .hintergrund-bild .mittig {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  font-size: larger;
+}
+
+main .hintergrund-bild .mittig button {
+  background-color: rgb(26, 106, 61);
+  color: white;
+  height: 45px;
+  width: 200px;
+  border: none;
+}
+
+main .rund-bild {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
+
+}
+
+main .rund-bild img {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+}
+
+main .rund-bild div {
+  margin: 0px;
+  text-align: center;
+
+}
+
+main .p,
+main .p-1 {
+  text-align: center;
+  padding: 0px;
+  margin: 10px;
+  font-size: large;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .hintergrund-bild-2 {
+  background-image: url(bild-2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  min-height: 400px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-size: larger;
+  padding-top: 200px;
+}
+
+main .hintergrund-bild-2 button {
+  height: 35px;
+  border: none;
+}
+
+main .p-gift {
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  height: 50px;
+}
+main .p-gift .laufen {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: start;
+  animation-name: lauftext;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  overflow: hidden;
+  color: rgb(250, 146, 180);
+  padding: 10px;
+}
+main .p-gift .laufen img{
+  width: 30px;
+  height: 30px;
+}
+main .p-gift .text {
+  width: 650px;
+  height: 15px;
+  overflow: hidden;
+}
+@keyframes lauftext {
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: -100%;
+  }
+}
+
+/*main .p-gift p:hover{
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-iteration-count: 2;
+
+}*/
+
+main .andere {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+main .andere h5 {
+  width: 100%;
+  text-align: center;
+}
+
+main .andere table img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+main .andere table {
+  border-spacing: 4px 8px;
+}
+
+main .diko {
+  margin: 10px;
+  width: 100%;
+}
+
+main .diko table {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .diko img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 10px;
+  padding-top: 20px;
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
+
+}
+
+main .diko table tr td {
+  align-items: center;
+  vertical-align: top;
+  text-align: center;
+}
+
+main h2 {
+  width: 100%;
+  text-align: center;
+}
+
+main .servic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+main .servic div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 30px;
+
+}
+
+main .servic img {
+  width: 100%;
+  align-items: center;
+  max-width: 25px;
+  max-height: 25px;
+  padding: auto;
+  margin: 8px;
+}
+
+main .servic h1 {
+  width: 100%;
+  text-align: center;
+}
+
+main .servic h3 {
+  width: 100%;
+  text-align: center;
+}
+
+main .servic p {
+  text-align: center;
+  margin: 10px;
+}
+
+main .look h3 {
+  width: 100%;
+  text-align: center;
+}
+
+main .family h4 {
+  color: rgb(255, 119, 142);
+  text-align: center;
+}
+
+main .family img {
+  padding-left: 30px;
+}
+
+main .family h3,
+main .family p {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+main .family button {
+  background-color: rgb(26, 106, 61);
+  color: white;
+  height: 40px;
+  width: 250px;
+  border: none;
+  margin: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+main .traum h3,
+main .traum p {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+main .traum {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+main .traum img {
+  width: 200px;
+  height: 200px;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+main .ring {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .ring .paar{
+  background-image: url(ring-1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  box-shadow: gray 0px 0px 10px;
+  padding: 8px;
+  margin: 2px;
+  transition: 2s linear 0.5s;
+  overflow: hidden;
+}
+main .ring .paar:hover{
+  background-image: url(paar.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 290px;
+  height: 290px;
+  box-shadow: gray 0px 0px 10px;
+  margin: 4px;
+  padding: 10px;
+  overflow: visible;
+}
+main .ring h3 {
+  width: 100%;
+  text-align: center;
+}
+
+main .ring div {
+  width: 300px;
+  margin: 10px;
+}
+
+main .ring img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  box-shadow: gray 0px 0px 10px;
+}
+
+main .ring img:hover {
+  width: 310px;
+  height: 310px;
+}
+
+main .butt {
+  width: 100%;
+  text-align: center;
+}
+
+main .butt button {
+  background-color: rgb(26, 106, 61);
+  color: white;
+  height: 40px;
+  width: 250px;
+  border: none;
+  margin: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+main .p-2 {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+main .p-2 img {
+  width: 15px;
+  height: 15px;
+}
+
+main .p-2 input {
+  width: 550px;
+  height: 40px;
+}
+
+footer .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+footer .footer img {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+footer .footer table {
+  border-spacing: 25px 2px;
+}
